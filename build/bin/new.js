@@ -113,7 +113,7 @@ fileSave(sassPath)
   .end('\n');
 
 // 添加到 element-ui.d.ts
-const elementTsPath = path.join(__dirname, '../../types/element-ui.d.ts');
+const elementTsPath = path.join(__dirname, '../../types/element-hdop.d.ts');
 
 let elementTsText = `${fs.readFileSync(elementTsPath)}
 /** ${ComponentName} Component */
