@@ -36,9 +36,9 @@
 </template>
 
 <script>
-import ElPopover from 'element-ui/packages/popover';
-import ElButton from 'element-ui/packages/button';
-import {t} from 'element-ui/src/locale';
+import ElPopover from 'element-hdop/packages/popover';
+import ElButton from 'element-hdop/packages/button';
+import {t} from 'element-hdop/src/locale';
 
 export default {
   name: 'ElPopconfirm',
