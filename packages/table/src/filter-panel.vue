@@ -43,14 +43,14 @@
 </template>
 
 <script type="text/babel">
-  import Popper from 'element-hdop/src/utils/vue-popper';
-  import { PopupManager } from 'element-hdop/src/utils/popup';
-  import Locale from 'element-hdop/src/mixins/locale';
-  import Clickoutside from 'element-hdop/src/utils/clickoutside';
+  import Popper from 'hdop-ele-arco/src/utils/vue-popper';
+  import { PopupManager } from 'hdop-ele-arco/src/utils/popup';
+  import Locale from 'hdop-ele-arco/src/mixins/locale';
+  import Clickoutside from 'hdop-ele-arco/src/utils/clickoutside';
   import Dropdown from './dropdown';
-  import ElCheckbox from 'element-hdop/packages/checkbox';
-  import ElCheckboxGroup from 'element-hdop/packages/checkbox-group';
-  import ElScrollbar from 'element-hdop/packages/scrollbar';
+  import ElCheckbox from 'hdop-ele-arco/packages/checkbox';
+  import ElCheckboxGroup from 'hdop-ele-arco/packages/checkbox-group';
+  import ElScrollbar from 'hdop-ele-arco/packages/scrollbar';
 
   export default {
     name: 'ElTableFilterPanel',

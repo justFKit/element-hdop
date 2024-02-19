@@ -1,5 +1,5 @@
 import Node from './node';
-import { coerceTruthyValueToArray, valueEquals } from 'element-hdop/src/utils/util';
+import { coerceTruthyValueToArray, valueEquals } from 'hdop-ele-arco/src/utils/util';
 
 const flatNodes = (data, leafOnly) => {
   return data.reduce((res, node) => {

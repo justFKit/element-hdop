@@ -56,7 +56,7 @@
 
 <script>
 import throttle from 'throttle-debounce/throttle';
-import { addResizeListener, removeResizeListener } from 'element-hdop/src/utils/resize-event';
+import { addResizeListener, removeResizeListener } from 'hdop-ele-arco/src/utils/resize-event';
 
 export default {
   name: 'ElCarousel',

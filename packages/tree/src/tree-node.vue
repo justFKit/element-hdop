@@ -72,9 +72,9 @@
 </template>
 
 <script type="text/jsx">
-  import ElCollapseTransition from 'element-hdop/src/transitions/collapse-transition';
-  import ElCheckbox from 'element-hdop/packages/checkbox';
-  import emitter from 'element-hdop/src/mixins/emitter';
+  import ElCollapseTransition from 'hdop-ele-arco/src/transitions/collapse-transition';
+  import ElCheckbox from 'hdop-ele-arco/packages/checkbox';
+  import emitter from 'hdop-ele-arco/src/mixins/emitter';
   import { getNodeKey } from './model/util';
 
   export default {

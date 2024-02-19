@@ -16,8 +16,8 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'element-hdop/src/mixins/emitter';
-  import { getValueByPath, escapeRegexpString } from 'element-hdop/src/utils/util';
+  import Emitter from 'hdop-ele-arco/src/mixins/emitter';
+  import { getValueByPath, escapeRegexpString } from 'hdop-ele-arco/src/utils/util';
 
   export default {
     mixins: [Emitter],

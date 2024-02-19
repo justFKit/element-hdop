@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import { hasClass, addClass, removeClass } from 'element-hdop/src/utils/dom';
-import ElCheckbox from 'element-hdop/packages/checkbox';
+import { hasClass, addClass, removeClass } from 'hdop-ele-arco/src/utils/dom';
+import ElCheckbox from 'hdop-ele-arco/packages/checkbox';
 import FilterPanel from './filter-panel.vue';
 import LayoutObserver from './layout-observer';
 import { mapStates } from './store/helper';

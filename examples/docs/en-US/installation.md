@@ -10,13 +10,13 @@ npm i element-ui -S
 
 ### CDN
 
-Get the latest version from [unpkg.com/element-ui](https://unpkg.com/element-hdop/) , and import JavaScript and CSS file in your page.
+Get the latest version from [unpkg.com/element-ui](https://unpkg.com/hdop-ele-arco/) , and import JavaScript and CSS file in your page.
 
 ```html
 <!-- import CSS -->
-<link rel="stylesheet" href="https://unpkg.com/element-hdop/lib/theme-chalk/index.css">
+<link rel="stylesheet" href="https://unpkg.com/hdop-ele-arco/lib/theme-chalk/index.css">
 <!-- import JavaScript -->
-<script src="https://unpkg.com/element-hdop/lib/index.js"></script>
+<script src="https://unpkg.com/hdop-ele-arco/lib/index.js"></script>
 ```
 
 :::tip

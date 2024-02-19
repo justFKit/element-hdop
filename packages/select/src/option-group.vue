@@ -10,7 +10,7 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'element-hdop/src/mixins/emitter';
+  import Emitter from 'hdop-ele-arco/src/mixins/emitter';
 
   export default {
     mixins: [Emitter],

@@ -1,5 +1,5 @@
 import DescriptionsRow from './descriptions-row';
-import { isFunction } from 'element-hdop/src/utils/types';
+import { isFunction } from 'hdop-ele-arco/src/utils/types';
 
 export default {
   name: 'ElDescriptions',

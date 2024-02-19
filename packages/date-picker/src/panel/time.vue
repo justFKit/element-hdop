@@ -31,8 +31,8 @@
 </template>
 
 <script type="text/babel">
-  import { limitTimeRange, isDate, clearMilliseconds, timeWithinRange } from 'element-hdop/src/utils/date-util';
-  import Locale from 'element-hdop/src/mixins/locale';
+  import { limitTimeRange, isDate, clearMilliseconds, timeWithinRange } from 'hdop-ele-arco/src/utils/date-util';
+  import Locale from 'hdop-ele-arco/src/mixins/locale';
   import TimeSpinner from '../basic/time-spinner';
 
   export default {

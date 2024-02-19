@@ -7,7 +7,7 @@
   </form>
 </template>
 <script>
-  import objectAssign from 'element-hdop/src/utils/merge';
+  import objectAssign from 'hdop-ele-arco/src/utils/merge';
 
   export default {
     name: 'ElForm',

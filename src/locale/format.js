@@ -1,4 +1,4 @@
-import { hasOwn } from 'element-hdop/src/utils/util';
+import { hasOwn } from 'hdop-ele-arco/src/utils/util';
 
 const RE_NARGS = /(%|)\{([0-9a-zA-Z_]+)\}/g;
 /**

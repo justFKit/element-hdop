@@ -52,9 +52,9 @@
 </template>
 
 <script>
-import { on, off } from 'element-hdop/src/utils/dom';
-import { rafThrottle, isFirefox } from 'element-hdop/src/utils/util';
-import { PopupManager } from 'element-hdop/src/utils/popup';
+import { on, off } from 'hdop-ele-arco/src/utils/dom';
+import { rafThrottle, isFirefox } from 'hdop-ele-arco/src/utils/util';
+import { PopupManager } from 'hdop-ele-arco/src/utils/popup';
 
 const Mode = {
   CONTAIN: {

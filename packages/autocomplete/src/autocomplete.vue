@@ -59,13 +59,13 @@
 </template>
 <script>
   import debounce from 'throttle-debounce/debounce';
-  import ElInput from 'element-hdop/packages/input';
-  import Clickoutside from 'element-hdop/src/utils/clickoutside';
+  import ElInput from 'hdop-ele-arco/packages/input';
+  import Clickoutside from 'hdop-ele-arco/src/utils/clickoutside';
   import ElAutocompleteSuggestions from './autocomplete-suggestions.vue';
-  import Emitter from 'element-hdop/src/mixins/emitter';
-  import Migrating from 'element-hdop/src/mixins/migrating';
-  import { generateId } from 'element-hdop/src/utils/util';
-  import Focus from 'element-hdop/src/mixins/focus';
+  import Emitter from 'hdop-ele-arco/src/mixins/emitter';
+  import Migrating from 'hdop-ele-arco/src/mixins/migrating';
+  import { generateId } from 'hdop-ele-arco/src/utils/util';
+  import Focus from 'hdop-ele-arco/src/mixins/focus';
 
   export default {
     name: 'ElAutocomplete',

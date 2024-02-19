@@ -29,9 +29,9 @@
       ],
       "plugins": [
         ["module-resolver", {
-          "root": ["element-hdop"],
+          "root": ["hdop-ele-arco"],
           "alias": {
-            "element-hdop/src": "element-hdop/lib"
+            "hdop-ele-arco/src": "hdop-ele-arco/lib"
           }
         }]
       ]

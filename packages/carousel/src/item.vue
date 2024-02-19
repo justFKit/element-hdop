@@ -21,7 +21,7 @@
 </template>
 
 <script>
-  import { autoprefixer } from 'element-hdop/src/utils/util';
+  import { autoprefixer } from 'hdop-ele-arco/src/utils/util';
   const CARD_SCALE = 0.83;
   export default {
     name: 'ElCarouselItem',

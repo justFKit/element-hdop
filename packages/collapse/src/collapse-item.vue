@@ -45,9 +45,9 @@
   </div>
 </template>
 <script>
-  import ElCollapseTransition from 'element-hdop/src/transitions/collapse-transition';
-  import Emitter from 'element-hdop/src/mixins/emitter';
-  import { generateId } from 'element-hdop/src/utils/util';
+  import ElCollapseTransition from 'hdop-ele-arco/src/transitions/collapse-transition';
+  import Emitter from 'hdop-ele-arco/src/mixins/emitter';
+  import { generateId } from 'hdop-ele-arco/src/utils/util';
 
   export default {
     name: 'ElCollapseItem',

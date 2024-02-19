@@ -62,8 +62,8 @@
     modifyDate,
     clearMilliseconds,
     timeWithinRange
-  } from 'element-hdop/src/utils/date-util';
-  import Locale from 'element-hdop/src/mixins/locale';
+  } from 'hdop-ele-arco/src/utils/date-util';
+  import Locale from 'hdop-ele-arco/src/mixins/locale';
   import TimeSpinner from '../basic/time-spinner';
 
   const MIN_TIME = parseDate('00:00:00', 'HH:mm:ss');

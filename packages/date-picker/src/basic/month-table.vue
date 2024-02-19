@@ -13,10 +13,10 @@
 </template>
 
 <script type="text/babel">
-  import Locale from 'element-hdop/src/mixins/locale';
-  import { isDate, range, getDayCountOfMonth, nextDate } from 'element-hdop/src/utils/date-util';
-  import { hasClass } from 'element-hdop/src/utils/dom';
-  import { arrayFindIndex, coerceTruthyValueToArray, arrayFind } from 'element-hdop/src/utils/util';
+  import Locale from 'hdop-ele-arco/src/mixins/locale';
+  import { isDate, range, getDayCountOfMonth, nextDate } from 'hdop-ele-arco/src/utils/date-util';
+  import { hasClass } from 'hdop-ele-arco/src/utils/dom';
+  import { arrayFindIndex, coerceTruthyValueToArray, arrayFind } from 'hdop-ele-arco/src/utils/util';
 
   const datesInMonth = (year, month) => {
     const numOfDays = getDayCountOfMonth(year, month);

@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Watcher from './watcher';
-import { arrayFind } from 'element-hdop/src/utils/util';
+import { arrayFind } from 'hdop-ele-arco/src/utils/util';
 
 Watcher.prototype.mutations = {
   setData(states, data) {

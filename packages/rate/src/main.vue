@@ -33,9 +33,9 @@
 </template>
 
 <script>
-  import { hasClass } from 'element-hdop/src/utils/dom';
-  import { isObject } from 'element-hdop/src/utils/types';
-  import Migrating from 'element-hdop/src/mixins/migrating';
+  import { hasClass } from 'hdop-ele-arco/src/utils/dom';
+  import { isObject } from 'hdop-ele-arco/src/utils/types';
+  import Migrating from 'hdop-ele-arco/src/mixins/migrating';
 
   export default {
     name: 'ElRate',

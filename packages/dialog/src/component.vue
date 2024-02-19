@@ -38,9 +38,9 @@
 </template>
 
 <script>
-  import Popup from 'element-hdop/src/utils/popup';
-  import Migrating from 'element-hdop/src/mixins/migrating';
-  import emitter from 'element-hdop/src/mixins/emitter';
+  import Popup from 'hdop-ele-arco/src/utils/popup';
+  import Migrating from 'hdop-ele-arco/src/mixins/migrating';
+  import emitter from 'hdop-ele-arco/src/mixins/emitter';
 
   export default {
     name: 'ElDialog',

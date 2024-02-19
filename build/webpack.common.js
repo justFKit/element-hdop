@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: path.resolve(process.cwd(), './lib'),
     publicPath: '/dist/',
-    filename: 'element-hdop.common.js',
+    filename: 'hdop-ele-arco.common.js',
     chunkFilename: '[id].js',
     libraryExport: 'default',
     library: 'ELEMENT',

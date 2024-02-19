@@ -1,8 +1,8 @@
-import { arrayFindIndex } from 'element-hdop/src/utils/util';
+import { arrayFindIndex } from 'hdop-ele-arco/src/utils/util';
 import { getCell, getColumnByCell, getRowIdentity, objectEquals } from './util';
-import { getStyle, hasClass, removeClass, addClass } from 'element-hdop/src/utils/dom';
-import ElCheckbox from 'element-hdop/packages/checkbox';
-import ElTooltip from 'element-hdop/packages/tooltip';
+import { getStyle, hasClass, removeClass, addClass } from 'hdop-ele-arco/src/utils/dom';
+import ElCheckbox from 'hdop-ele-arco/packages/checkbox';
+import ElTooltip from 'hdop-ele-arco/packages/tooltip';
 import debounce from 'throttle-debounce/debounce';
 import LayoutObserver from './layout-observer';
 import { mapStates } from './store/helper';

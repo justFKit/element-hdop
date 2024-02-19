@@ -28,7 +28,7 @@
 </template>
 
 <script>
-  import ElTooltip from 'element-hdop/packages/tooltip';
+  import ElTooltip from 'hdop-ele-arco/packages/tooltip';
 
   export default {
     name: 'ElSliderButton',

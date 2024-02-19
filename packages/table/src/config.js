@@ -1,4 +1,4 @@
-import { getPropByPath } from 'element-hdop/src/utils/util';
+import { getPropByPath } from 'hdop-ele-arco/src/utils/util';
 
 export const cellStarts = {
   default: {

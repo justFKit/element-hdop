@@ -1,8 +1,8 @@
 <script type="text/jsx">
-  import emitter from 'element-hdop/src/mixins/emitter';
-  import Migrating from 'element-hdop/src/mixins/migrating';
-  import Menubar from 'element-hdop/src/utils/menu/aria-menubar';
-  import { addClass, removeClass, hasClass } from 'element-hdop/src/utils/dom';
+  import emitter from 'hdop-ele-arco/src/mixins/emitter';
+  import Migrating from 'hdop-ele-arco/src/mixins/migrating';
+  import Menubar from 'hdop-ele-arco/src/utils/menu/aria-menubar';
+  import { addClass, removeClass, hasClass } from 'hdop-ele-arco/src/utils/dom';
 
   export default {
     name: 'ElMenu',

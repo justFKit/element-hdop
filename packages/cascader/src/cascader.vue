@@ -112,21 +112,21 @@
 </template>
 
 <script>
-import Popper from 'element-hdop/src/utils/vue-popper';
-import Clickoutside from 'element-hdop/src/utils/clickoutside';
-import Emitter from 'element-hdop/src/mixins/emitter';
-import Locale from 'element-hdop/src/mixins/locale';
-import Migrating from 'element-hdop/src/mixins/migrating';
-import ElInput from 'element-hdop/packages/input';
-import ElTag from 'element-hdop/packages/tag';
-import ElScrollbar from 'element-hdop/packages/scrollbar';
-import ElCascaderPanel from 'element-hdop/packages/cascader-panel';
-import AriaUtils from 'element-hdop/src/utils/aria-utils';
-import { t } from 'element-hdop/src/locale';
-import { isEqual, isEmpty, kebabCase } from 'element-hdop/src/utils/util';
-import { isUndefined, isFunction } from 'element-hdop/src/utils/types';
-import { isDef } from 'element-hdop/src/utils/shared';
-import { addResizeListener, removeResizeListener } from 'element-hdop/src/utils/resize-event';
+import Popper from 'hdop-ele-arco/src/utils/vue-popper';
+import Clickoutside from 'hdop-ele-arco/src/utils/clickoutside';
+import Emitter from 'hdop-ele-arco/src/mixins/emitter';
+import Locale from 'hdop-ele-arco/src/mixins/locale';
+import Migrating from 'hdop-ele-arco/src/mixins/migrating';
+import ElInput from 'hdop-ele-arco/packages/input';
+import ElTag from 'hdop-ele-arco/packages/tag';
+import ElScrollbar from 'hdop-ele-arco/packages/scrollbar';
+import ElCascaderPanel from 'hdop-ele-arco/packages/cascader-panel';
+import AriaUtils from 'hdop-ele-arco/src/utils/aria-utils';
+import { t } from 'hdop-ele-arco/src/locale';
+import { isEqual, isEmpty, kebabCase } from 'hdop-ele-arco/src/utils/util';
+import { isUndefined, isFunction } from 'hdop-ele-arco/src/utils/types';
+import { isDef } from 'hdop-ele-arco/src/utils/shared';
+import { addResizeListener, removeResizeListener } from 'hdop-ele-arco/src/utils/resize-event';
 import debounce from 'throttle-debounce/debounce';
 
 const { keys: KeyCode } = AriaUtils;

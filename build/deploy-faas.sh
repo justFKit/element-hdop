@@ -10,8 +10,8 @@ SUB_FOLDER='2.15'
 mkdir -p $SUB_FOLDER
 rm -rf *.js *.css *.map static
 rm -rf $SUB_FOLDER/**
-cp -rf ../../examples/element-hdop/** .
-cp -rf ../../examples/element-hdop/** $SUB_FOLDER/
+cp -rf ../../examples/hdop-ele-arco/** .
+cp -rf ../../examples/hdop-ele-arco/** $SUB_FOLDER/
 cd ../..
 
 # deploy domestic site

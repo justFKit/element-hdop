@@ -17,16 +17,16 @@
 <script>
 import CascaderMenu from './cascader-menu';
 import Store from './store';
-import merge from 'element-hdop/src/utils/merge';
-import AriaUtils from 'element-hdop/src/utils/aria-utils';
-import scrollIntoView from 'element-hdop/src/utils/scroll-into-view';
+import merge from 'hdop-ele-arco/src/utils/merge';
+import AriaUtils from 'hdop-ele-arco/src/utils/aria-utils';
+import scrollIntoView from 'hdop-ele-arco/src/utils/scroll-into-view';
 import {
   noop,
   coerceTruthyValueToArray,
   isEqual,
   isEmpty,
   valueEquals
-} from 'element-hdop/src/utils/util';
+} from 'hdop-ele-arco/src/utils/util';
 
 const { keys: KeyCode } = AriaUtils;
 const DefaultProps = {

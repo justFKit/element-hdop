@@ -1,8 +1,8 @@
 <script>
-  import ElCollapseTransition from 'element-hdop/src/transitions/collapse-transition';
+  import ElCollapseTransition from 'hdop-ele-arco/src/transitions/collapse-transition';
   import menuMixin from './menu-mixin';
-  import Emitter from 'element-hdop/src/mixins/emitter';
-  import Popper from 'element-hdop/src/utils/vue-popper';
+  import Emitter from 'hdop-ele-arco/src/mixins/emitter';
+  import Popper from 'hdop-ele-arco/src/utils/vue-popper';
 
   const poperMixins = {
     props: {

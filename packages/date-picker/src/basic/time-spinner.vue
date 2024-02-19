@@ -101,9 +101,9 @@
 </template>
 
 <script type="text/babel">
-  import { getRangeHours, getRangeMinutes, modifyTime } from 'element-hdop/src/utils/date-util';
-  import ElScrollbar from 'element-hdop/packages/scrollbar';
-  import RepeatClick from 'element-hdop/src/directives/repeat-click';
+  import { getRangeHours, getRangeMinutes, modifyTime } from 'hdop-ele-arco/src/utils/date-util';
+  import ElScrollbar from 'hdop-ele-arco/packages/scrollbar';
+  import RepeatClick from 'hdop-ele-arco/src/directives/repeat-click';
 
   export default {
     components: { ElScrollbar },

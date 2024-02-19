@@ -1,8 +1,8 @@
 <script>
 import UploadList from './upload-list';
 import Upload from './upload';
-import ElProgress from 'element-hdop/packages/progress';
-import Migrating from 'element-hdop/src/mixins/migrating';
+import ElProgress from 'hdop-ele-arco/packages/progress';
+import Migrating from 'hdop-ele-arco/src/mixins/migrating';
 
 function noop() {}
 

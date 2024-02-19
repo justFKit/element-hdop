@@ -1,8 +1,8 @@
 <script>
-import ElScrollbar from 'element-hdop/packages/scrollbar';
+import ElScrollbar from 'hdop-ele-arco/packages/scrollbar';
 import CascaderNode from './cascader-node.vue';
-import Locale from 'element-hdop/src/mixins/locale';
-import { generateId } from 'element-hdop/src/utils/util';
+import Locale from 'hdop-ele-arco/src/mixins/locale';
+import { generateId } from 'hdop-ele-arco/src/utils/util';
 
 export default {
   name: 'ElCascaderMenu',

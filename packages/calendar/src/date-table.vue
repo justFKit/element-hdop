@@ -1,6 +1,6 @@
 <script>
-import fecha from 'element-hdop/src/utils/date';
-import { range as rangeArr, getFirstDayOfMonth, getPrevMonthLastDays, getMonthDays, getI18nSettings, validateRangeInOneMonth } from 'element-hdop/src/utils/date-util';
+import fecha from 'hdop-ele-arco/src/utils/date';
+import { range as rangeArr, getFirstDayOfMonth, getPrevMonthLastDays, getMonthDays, getI18nSettings, validateRangeInOneMonth } from 'hdop-ele-arco/src/utils/date-util';
 
 export default {
   props: {

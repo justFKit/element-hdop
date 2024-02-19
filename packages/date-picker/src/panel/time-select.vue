@@ -19,8 +19,8 @@
 </template>
 
 <script type="text/babel">
-  import ElScrollbar from 'element-hdop/packages/scrollbar';
-  import scrollIntoView from 'element-hdop/src/utils/scroll-into-view';
+  import ElScrollbar from 'hdop-ele-arco/packages/scrollbar';
+  import scrollIntoView from 'hdop-ele-arco/src/utils/scroll-into-view';
 
   const parseTime = function(time) {
     const values = (time || '').split(':');

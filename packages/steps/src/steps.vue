@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Migrating from 'element-hdop/src/mixins/migrating';
+import Migrating from 'hdop-ele-arco/src/mixins/migrating';
 
 export default {
   name: 'ElSteps',

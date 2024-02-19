@@ -1,5 +1,5 @@
-import { once, on } from 'element-hdop/src/utils/dom';
-import { isMac } from 'element-hdop/src/utils/util';
+import { once, on } from 'hdop-ele-arco/src/utils/dom';
+import { isMac } from 'hdop-ele-arco/src/utils/util';
 
 export default {
   bind(el, binding, vnode) {

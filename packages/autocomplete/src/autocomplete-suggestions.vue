@@ -18,9 +18,9 @@
   </transition>
 </template>
 <script>
-  import Popper from 'element-hdop/src/utils/vue-popper';
-  import Emitter from 'element-hdop/src/mixins/emitter';
-  import ElScrollbar from 'element-hdop/packages/scrollbar';
+  import Popper from 'hdop-ele-arco/src/utils/vue-popper';
+  import Emitter from 'hdop-ele-arco/src/mixins/emitter';
+  import ElScrollbar from 'hdop-ele-arco/packages/scrollbar';
 
   export default {
     components: { ElScrollbar },

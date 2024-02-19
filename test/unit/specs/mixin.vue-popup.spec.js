@@ -1,4 +1,4 @@
-import VuePopup from 'element-hdop/src/utils/popup';
+import VuePopup from 'hdop-ele-arco/src/utils/popup';
 import { createTest, destroyVM } from '../util';
 
 const Popup = Object.assign({}, VuePopup, {

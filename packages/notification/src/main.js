@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Main from './main.vue';
-import merge from 'element-hdop/src/utils/merge';
-import { PopupManager } from 'element-hdop/src/utils/popup';
-import { isVNode } from 'element-hdop/src/utils/vdom';
+import merge from 'hdop-ele-arco/src/utils/merge';
+import { PopupManager } from 'hdop-ele-arco/src/utils/popup';
+import { isVNode } from 'hdop-ele-arco/src/utils/vdom';
 const NotificationConstructor = Vue.extend(Main);
 
 let instance;

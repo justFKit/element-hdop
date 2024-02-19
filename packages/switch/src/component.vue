@@ -36,9 +36,9 @@
   </div>
 </template>
 <script>
-  import emitter from 'element-hdop/src/mixins/emitter';
-  import Focus from 'element-hdop/src/mixins/focus';
-  import Migrating from 'element-hdop/src/mixins/migrating';
+  import emitter from 'hdop-ele-arco/src/mixins/emitter';
+  import Focus from 'hdop-ele-arco/src/mixins/focus';
+  import Migrating from 'hdop-ele-arco/src/mixins/migrating';
 
   export default {
     name: 'ElSwitch',

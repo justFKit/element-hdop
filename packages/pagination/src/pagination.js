@@ -1,9 +1,9 @@
 import Pager from './pager.vue';
-import ElSelect from 'element-hdop/packages/select';
-import ElOption from 'element-hdop/packages/option';
-import ElInput from 'element-hdop/packages/input';
-import Locale from 'element-hdop/src/mixins/locale';
-import { valueEquals } from 'element-hdop/src/utils/util';
+import ElSelect from 'hdop-ele-arco/packages/select';
+import ElOption from 'hdop-ele-arco/packages/option';
+import ElInput from 'hdop-ele-arco/packages/input';
+import Locale from 'hdop-ele-arco/src/mixins/locale';
+import { valueEquals } from 'hdop-ele-arco/src/utils/util';
 
 export default {
   name: 'ElPagination',

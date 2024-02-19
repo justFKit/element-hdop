@@ -1,9 +1,9 @@
-import { kebabCase } from 'element-hdop/src/utils/util';
+import { kebabCase } from 'hdop-ele-arco/src/utils/util';
 /**
  * Show migrating guide in browser console.
  *
  * Usage:
- * import Migrating from 'element-hdop/src/mixins/migrating';
+ * import Migrating from 'hdop-ele-arco/src/mixins/migrating';
  *
  * mixins: [Migrating]
  *

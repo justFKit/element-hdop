@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import { isNumber, chain, multiply, padStart, reduce} from 'element-hdop/src/utils/lodash';
+import { isNumber, chain, multiply, padStart, reduce} from 'hdop-ele-arco/src/utils/lodash';
 export default {
   name: 'ElStatistic',
   data() {

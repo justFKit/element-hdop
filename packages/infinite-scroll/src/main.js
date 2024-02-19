@@ -4,10 +4,10 @@ import {
   isFunction,
   isUndefined,
   isDefined
-} from 'element-hdop/src/utils/types';
+} from 'hdop-ele-arco/src/utils/types';
 import {
   getScrollContainer
-} from 'element-hdop/src/utils/dom';
+} from 'hdop-ele-arco/src/utils/dom';
 
 const getStyleComputedProperty = (element, property) => {
   if (element === window) {
