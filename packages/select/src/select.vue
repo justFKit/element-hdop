@@ -136,21 +136,21 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'element-hdop/src/mixins/emitter';
-  import Focus from 'element-hdop/src/mixins/focus';
-  import Locale from 'element-hdop/src/mixins/locale';
-  import ElInput from 'element-hdop/packages/input';
+  import Emitter from 'hdop-ele-arco/src/mixins/emitter';
+  import Focus from 'hdop-ele-arco/src/mixins/focus';
+  import Locale from 'hdop-ele-arco/src/mixins/locale';
+  import ElInput from 'hdop-ele-arco/packages/input';
   import ElSelectMenu from './select-dropdown.vue';
   import ElOption from './option.vue';
-  import ElTag from 'element-hdop/packages/tag';
-  import ElScrollbar from 'element-hdop/packages/scrollbar';
+  import ElTag from 'hdop-ele-arco/packages/tag';
+  import ElScrollbar from 'hdop-ele-arco/packages/scrollbar';
   import debounce from 'throttle-debounce/debounce';
-  import Clickoutside from 'element-hdop/src/utils/clickoutside';
-  import { addResizeListener, removeResizeListener } from 'element-hdop/src/utils/resize-event';
-  import scrollIntoView from 'element-hdop/src/utils/scroll-into-view';
-  import { getValueByPath, valueEquals, isIE, isEdge } from 'element-hdop/src/utils/util';
+  import Clickoutside from 'hdop-ele-arco/src/utils/clickoutside';
+  import { addResizeListener, removeResizeListener } from 'hdop-ele-arco/src/utils/resize-event';
+  import scrollIntoView from 'hdop-ele-arco/src/utils/scroll-into-view';
+  import { getValueByPath, valueEquals, isIE, isEdge } from 'hdop-ele-arco/src/utils/util';
   import NavigationMixin from './navigation-mixin';
-  import { isKorean } from 'element-hdop/src/utils/shared';
+  import { isKorean } from 'hdop-ele-arco/src/utils/shared';
 
   export default {
     mixins: [Emitter, Locale, Focus('reference'), NavigationMixin],

@@ -84,12 +84,12 @@
     prevYear,
     nextYear,
     nextMonth
-  } from 'element-hdop/src/utils/date-util';
-  import Clickoutside from 'element-hdop/src/utils/clickoutside';
-  import Locale from 'element-hdop/src/mixins/locale';
+  } from 'hdop-ele-arco/src/utils/date-util';
+  import Clickoutside from 'hdop-ele-arco/src/utils/clickoutside';
+  import Locale from 'hdop-ele-arco/src/mixins/locale';
   import MonthTable from '../basic/month-table';
-  import ElInput from 'element-hdop/packages/input';
-  import ElButton from 'element-hdop/packages/button';
+  import ElInput from 'hdop-ele-arco/packages/input';
+  import ElButton from 'hdop-ele-arco/packages/button';
 
   const calcDefaultValue = (defaultValue) => {
     if (Array.isArray(defaultValue)) {

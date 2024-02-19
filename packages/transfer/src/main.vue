@@ -42,11 +42,11 @@
 </template>
 
 <script>
-  import ElButton from 'element-hdop/packages/button';
-  import Emitter from 'element-hdop/src/mixins/emitter';
-  import Locale from 'element-hdop/src/mixins/locale';
+  import ElButton from 'hdop-ele-arco/packages/button';
+  import Emitter from 'hdop-ele-arco/src/mixins/emitter';
+  import Locale from 'hdop-ele-arco/src/mixins/locale';
   import TransferPanel from './transfer-panel.vue';
-  import Migrating from 'element-hdop/src/mixins/migrating';
+  import Migrating from 'hdop-ele-arco/src/mixins/migrating';
 
   export default {
     name: 'ElTransfer',

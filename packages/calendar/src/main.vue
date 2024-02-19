@@ -57,12 +57,12 @@
 </template>
 
 <script>
-import Locale from 'element-hdop/src/mixins/locale';
-import fecha from 'element-hdop/src/utils/date';
-import ElButton from 'element-hdop/packages/button';
-import ElButtonGroup from 'element-hdop/packages/button-group';
+import Locale from 'hdop-ele-arco/src/mixins/locale';
+import fecha from 'hdop-ele-arco/src/utils/date';
+import ElButton from 'hdop-ele-arco/packages/button';
+import ElButtonGroup from 'hdop-ele-arco/packages/button-group';
 import DateTable from './date-table';
-import { validateRangeInOneMonth } from 'element-hdop/src/utils/date-util';
+import { validateRangeInOneMonth } from 'hdop-ele-arco/src/utils/date-util';
 
 const validTypes = ['prev-month', 'today', 'next-month'];
 const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];

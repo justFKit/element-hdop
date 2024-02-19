@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import scrollbarWidth from 'element-hdop/src/utils/scrollbar-width';
+import scrollbarWidth from 'hdop-ele-arco/src/utils/scrollbar-width';
 import { parseHeight } from './util';
 
 class TableLayout {

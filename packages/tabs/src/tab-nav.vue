@@ -1,6 +1,6 @@
 <script>
   import TabBar from './tab-bar';
-  import { addResizeListener, removeResizeListener } from 'element-hdop/src/utils/resize-event';
+  import { addResizeListener, removeResizeListener } from 'hdop-ele-arco/src/utils/resize-event';
 
   function noop() {}
   const firstUpperCase = str => {

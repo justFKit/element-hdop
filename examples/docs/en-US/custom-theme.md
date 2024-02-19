@@ -21,9 +21,9 @@ The above website enables you to preview theme of a new theme color in real-time
 $--color-primary: teal;
 
 /* icon font path, required */
-$--font-path: '~element-hdop/lib/theme-chalk/fonts';
+$--font-path: '~hdop-ele-arco/lib/theme-chalk/fonts';
 
-@import "~element-hdop/packages/theme-chalk/src/index";
+@import "~hdop-ele-arco/packages/theme-chalk/src/index";
 ```
 
 Then in the entry file of your project, import this style file instead of Element's built CSS:

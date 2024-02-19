@@ -47,8 +47,8 @@
 </template>
 
 <script>
-import Popup from 'element-hdop/src/utils/popup';
-import emitter from 'element-hdop/src/mixins/emitter';
+import Popup from 'hdop-ele-arco/src/utils/popup';
+import emitter from 'hdop-ele-arco/src/mixins/emitter';
 
 export default {
   name: 'ElDrawer',

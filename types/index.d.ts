@@ -1,4 +1,4 @@
-export * from './element-hdop'
+export * from './hdop-ele-arco'
 
-import * as ElementUI from './element-hdop'
+import * as ElementUI from './hdop-ele-arco'
 export default ElementUI

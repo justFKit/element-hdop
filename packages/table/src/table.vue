@@ -213,12 +213,12 @@
 </template>
 
 <script type="text/babel">
-  import ElCheckbox from 'element-hdop/packages/checkbox';
+  import ElCheckbox from 'hdop-ele-arco/packages/checkbox';
   import { debounce, throttle } from 'throttle-debounce';
-  import { addResizeListener, removeResizeListener } from 'element-hdop/src/utils/resize-event';
-  import Mousewheel from 'element-hdop/src/directives/mousewheel';
-  import Locale from 'element-hdop/src/mixins/locale';
-  import Migrating from 'element-hdop/src/mixins/migrating';
+  import { addResizeListener, removeResizeListener } from 'hdop-ele-arco/src/utils/resize-event';
+  import Mousewheel from 'hdop-ele-arco/src/directives/mousewheel';
+  import Locale from 'hdop-ele-arco/src/mixins/locale';
+  import Migrating from 'hdop-ele-arco/src/mixins/migrating';
   import { createStore, mapStates } from './store/helper';
   import TableLayout from './table-layout';
   import TableBody from './table-body';

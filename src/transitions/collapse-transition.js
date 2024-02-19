@@ -1,4 +1,4 @@
-import { addClass, removeClass } from 'element-hdop/src/utils/dom';
+import { addClass, removeClass } from 'hdop-ele-arco/src/utils/dom';
 
 class Transition {
   beforeEnter(el) {

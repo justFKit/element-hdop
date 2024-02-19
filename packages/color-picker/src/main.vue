@@ -33,8 +33,8 @@
 <script>
   import Color from './color';
   import PickerDropdown from './components/picker-dropdown.vue';
-  import Clickoutside from 'element-hdop/src/utils/clickoutside';
-  import Emitter from 'element-hdop/src/mixins/emitter';
+  import Clickoutside from 'hdop-ele-arco/src/utils/clickoutside';
+  import Emitter from 'hdop-ele-arco/src/mixins/emitter';
 
   export default {
     name: 'ElColorPicker',

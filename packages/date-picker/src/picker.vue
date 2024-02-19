@@ -85,12 +85,12 @@
 
 <script>
 import Vue from 'vue';
-import Clickoutside from 'element-hdop/src/utils/clickoutside';
-import { formatDate, parseDate, isDateObject, getWeekNumber } from 'element-hdop/src/utils/date-util';
-import Popper from 'element-hdop/src/utils/vue-popper';
-import Emitter from 'element-hdop/src/mixins/emitter';
-import ElInput from 'element-hdop/packages/input';
-import merge from 'element-hdop/src/utils/merge';
+import Clickoutside from 'hdop-ele-arco/src/utils/clickoutside';
+import { formatDate, parseDate, isDateObject, getWeekNumber } from 'hdop-ele-arco/src/utils/date-util';
+import Popper from 'hdop-ele-arco/src/utils/vue-popper';
+import Emitter from 'hdop-ele-arco/src/mixins/emitter';
+import ElInput from 'hdop-ele-arco/packages/input';
+import merge from 'hdop-ele-arco/src/utils/merge';
 
 const NewPopper = {
   props: {

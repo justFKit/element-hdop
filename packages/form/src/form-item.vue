@@ -40,9 +40,9 @@
 </template>
 <script>
   import AsyncValidator from 'async-validator';
-  import emitter from 'element-hdop/src/mixins/emitter';
-  import objectAssign from 'element-hdop/src/utils/merge';
-  import { noop, getPropByPath } from 'element-hdop/src/utils/util';
+  import emitter from 'hdop-ele-arco/src/mixins/emitter';
+  import objectAssign from 'hdop-ele-arco/src/utils/merge';
+  import { noop, getPropByPath } from 'hdop-ele-arco/src/utils/util';
   import LabelWrap from './label-wrap';
   export default {
     name: 'ElFormItem',

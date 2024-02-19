@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import merge from 'element-hdop/src/utils/merge';
-import PopupManager from 'element-hdop/src/utils/popup/popup-manager';
+import merge from 'hdop-ele-arco/src/utils/merge';
+import PopupManager from 'hdop-ele-arco/src/utils/popup/popup-manager';
 import getScrollBarWidth from '../scrollbar-width';
 import { getStyle, addClass, removeClass, hasClass } from '../dom';
 

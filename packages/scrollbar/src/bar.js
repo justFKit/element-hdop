@@ -1,4 +1,4 @@
-import { on, off } from 'element-hdop/src/utils/dom';
+import { on, off } from 'hdop-ele-arco/src/utils/dom';
 import { renderThumbStyle, BAR_MAP } from './util';
 
 /* istanbul ignore next */

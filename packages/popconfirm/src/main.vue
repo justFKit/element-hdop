@@ -36,9 +36,9 @@
 </template>
 
 <script>
-import ElPopover from 'element-hdop/packages/popover';
-import ElButton from 'element-hdop/packages/button';
-import {t} from 'element-hdop/src/locale';
+import ElPopover from 'hdop-ele-arco/packages/popover';
+import ElButton from 'hdop-ele-arco/packages/button';
+import {t} from 'hdop-ele-arco/src/locale';
 
 export default {
   name: 'ElPopconfirm',

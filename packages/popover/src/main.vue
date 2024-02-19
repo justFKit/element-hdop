@@ -24,10 +24,10 @@
   </span>
 </template>
 <script>
-import Popper from 'element-hdop/src/utils/vue-popper';
-import { on, off } from 'element-hdop/src/utils/dom';
-import { addClass, removeClass } from 'element-hdop/src/utils/dom';
-import { generateId } from 'element-hdop/src/utils/util';
+import Popper from 'hdop-ele-arco/src/utils/vue-popper';
+import { on, off } from 'hdop-ele-arco/src/utils/dom';
+import { addClass, removeClass } from 'hdop-ele-arco/src/utils/dom';
+import { generateId } from 'hdop-ele-arco/src/utils/util';
 
 export default {
   name: 'ElPopover',

@@ -44,9 +44,9 @@
 </template>
 
 <script type="text/babel">
-  import { hasClass } from 'element-hdop/src/utils/dom';
-  import { isDate, range, nextDate, getDayCountOfYear } from 'element-hdop/src/utils/date-util';
-  import { arrayFindIndex, coerceTruthyValueToArray } from 'element-hdop/src/utils/util';
+  import { hasClass } from 'hdop-ele-arco/src/utils/dom';
+  import { isDate, range, nextDate, getDayCountOfYear } from 'hdop-ele-arco/src/utils/date-util';
+  import { arrayFindIndex, coerceTruthyValueToArray } from 'hdop-ele-arco/src/utils/util';
 
   const datesInYear = year => {
     const numOfDays = getDayCountOfYear(year);

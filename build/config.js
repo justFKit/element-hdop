@@ -9,21 +9,21 @@ var transitionList = fs.readdirSync(path.resolve(__dirname, '../src/transitions'
 var externals = {};
 
 Object.keys(Components).forEach(function(key) {
-  externals[`element-hdop/packages/${key}`] = `element-hdop/lib/${key}`;
+  externals[`hdop-ele-arco/packages/${key}`] = `hdop-ele-arco/lib/${key}`;
 });
 
-externals['element-hdop/src/locale'] = 'element-hdop/lib/locale';
+externals['hdop-ele-arco/src/locale'] = 'hdop-ele-arco/lib/locale';
 utilsList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`element-hdop/src/utils/${file}`] = `element-hdop/lib/utils/${file}`;
+  externals[`hdop-ele-arco/src/utils/${file}`] = `hdop-ele-arco/lib/utils/${file}`;
 });
 mixinsList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`element-hdop/src/mixins/${file}`] = `element-hdop/lib/mixins/${file}`;
+  externals[`hdop-ele-arco/src/mixins/${file}`] = `hdop-ele-arco/lib/mixins/${file}`;
 });
 transitionList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`element-hdop/src/transitions/${file}`] = `element-hdop/lib/transitions/${file}`;
+  externals[`hdop-ele-arco/src/transitions/${file}`] = `hdop-ele-arco/lib/transitions/${file}`;
 });
 
 externals = [Object.assign({
@@ -36,7 +36,7 @@ exports.alias = {
   main: path.resolve(__dirname, '../src'),
   packages: path.resolve(__dirname, '../packages'),
   examples: path.resolve(__dirname, '../examples'),
-  'element-hdop': path.resolve(__dirname, '../')
+  'hdop-ele-arco': path.resolve(__dirname, '../')
 };
 
 exports.vue = {

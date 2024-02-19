@@ -1,10 +1,10 @@
 <script>
-  import Clickoutside from 'element-hdop/src/utils/clickoutside';
-  import Emitter from 'element-hdop/src/mixins/emitter';
-  import Migrating from 'element-hdop/src/mixins/migrating';
-  import ElButton from 'element-hdop/packages/button';
-  import ElButtonGroup from 'element-hdop/packages/button-group';
-  import { generateId } from 'element-hdop/src/utils/util';
+  import Clickoutside from 'hdop-ele-arco/src/utils/clickoutside';
+  import Emitter from 'hdop-ele-arco/src/mixins/emitter';
+  import Migrating from 'hdop-ele-arco/src/mixins/migrating';
+  import ElButton from 'hdop-ele-arco/packages/button';
+  import ElButtonGroup from 'hdop-ele-arco/packages/button-group';
+  import { generateId } from 'hdop-ele-arco/src/utils/util';
 
   export default {
     name: 'ElDropdown',

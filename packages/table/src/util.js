@@ -1,4 +1,4 @@
-import { getValueByPath } from 'element-hdop/src/utils/util';
+import { getValueByPath } from 'hdop-ele-arco/src/utils/util';
 
 export const getCell = function(event) {
   let cell = event.target;

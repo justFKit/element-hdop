@@ -1,4 +1,4 @@
-import { arrayFind } from 'element-hdop/src/utils/util';
+import { arrayFind } from 'hdop-ele-arco/src/utils/util';
 import { getRowIdentity } from '../util';
 
 export default {

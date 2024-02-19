@@ -108,11 +108,11 @@
   </div>
 </template>
 <script>
-  import emitter from 'element-hdop/src/mixins/emitter';
-  import Migrating from 'element-hdop/src/mixins/migrating';
+  import emitter from 'hdop-ele-arco/src/mixins/emitter';
+  import Migrating from 'hdop-ele-arco/src/mixins/migrating';
   import calcTextareaHeight from './calcTextareaHeight';
-  import merge from 'element-hdop/src/utils/merge';
-  import {isKorean} from 'element-hdop/src/utils/shared';
+  import merge from 'hdop-ele-arco/src/utils/merge';
+  import {isKorean} from 'hdop-ele-arco/src/utils/shared';
 
   export default {
     name: 'ElInput',

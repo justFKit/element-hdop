@@ -1,7 +1,7 @@
-import Popper from 'element-hdop/src/utils/vue-popper';
+import Popper from 'hdop-ele-arco/src/utils/vue-popper';
 import debounce from 'throttle-debounce/debounce';
-import { addClass, removeClass, on, off } from 'element-hdop/src/utils/dom';
-import { generateId } from 'element-hdop/src/utils/util';
+import { addClass, removeClass, on, off } from 'hdop-ele-arco/src/utils/dom';
+import { generateId } from 'hdop-ele-arco/src/utils/util';
 import Vue from 'vue';
 
 export default {

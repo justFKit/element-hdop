@@ -1,4 +1,4 @@
-import ElCheckbox from 'element-hdop/packages/checkbox';
+import ElCheckbox from 'hdop-ele-arco/packages/checkbox';
 export default {
   name: 'ElTableRow',
   props: [

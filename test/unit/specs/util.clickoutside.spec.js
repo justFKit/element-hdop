@@ -1,4 +1,4 @@
-import Clickoutside from 'element-hdop/src/utils/clickoutside';
+import Clickoutside from 'hdop-ele-arco/src/utils/clickoutside';
 const ctx = '@@clickoutsideContext';
 
 import { triggerEvent, triggerClick } from '../util';

@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { addClass, removeClass } from 'element-hdop/src/utils/dom';
+import { addClass, removeClass } from 'hdop-ele-arco/src/utils/dom';
 
 let hasModal = false;
 let hasInitZIndex = false;

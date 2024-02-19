@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { on } from 'element-hdop/src/utils/dom';
+import { on } from 'hdop-ele-arco/src/utils/dom';
 
 const nodeList = [];
 const ctx = '@@clickoutsideContext';

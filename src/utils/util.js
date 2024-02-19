@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { isString, isObject } from 'element-hdop/src/utils/types';
+import { isString, isObject } from 'hdop-ele-arco/src/utils/types';
 
 const hasOwnProperty = Object.prototype.hasOwnProperty;
 

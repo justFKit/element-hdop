@@ -1,4 +1,4 @@
-import { t } from 'element-hdop/src/locale';
+import { t } from 'hdop-ele-arco/src/locale';
 
 export default {
   methods: {

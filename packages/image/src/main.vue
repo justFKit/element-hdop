@@ -23,9 +23,9 @@
 
 <script>
   import ImageViewer from './image-viewer';
-  import Locale from 'element-hdop/src/mixins/locale';
-  import { on, off, getScrollContainer, isInContainer } from 'element-hdop/src/utils/dom';
-  import { isString, isHtmlElement } from 'element-hdop/src/utils/types';
+  import Locale from 'hdop-ele-arco/src/mixins/locale';
+  import { on, off, getScrollContainer, isInContainer } from 'hdop-ele-arco/src/utils/dom';
+  import { isString, isHtmlElement } from 'hdop-ele-arco/src/utils/types';
   import throttle from 'throttle-debounce/throttle';
 
   const isSupportObjectFit = () => document.documentElement.style.objectFit !== undefined;

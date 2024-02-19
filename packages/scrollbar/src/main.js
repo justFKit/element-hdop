@@ -1,8 +1,8 @@
 // reference https://github.com/noeldelgado/gemini-scrollbar/blob/master/index.js
 
-import { addResizeListener, removeResizeListener } from 'element-hdop/src/utils/resize-event';
-import scrollbarWidth from 'element-hdop/src/utils/scrollbar-width';
-import { toObject } from 'element-hdop/src/utils/util';
+import { addResizeListener, removeResizeListener } from 'hdop-ele-arco/src/utils/resize-event';
+import scrollbarWidth from 'hdop-ele-arco/src/utils/scrollbar-width';
+import { toObject } from 'hdop-ele-arco/src/utils/util';
 import Bar from './bar';
 
 /* istanbul ignore next */

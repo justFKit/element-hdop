@@ -46,9 +46,9 @@
   </div>
 </template>
 <script>
-  import ElInput from 'element-hdop/packages/input';
-  import Focus from 'element-hdop/src/mixins/focus';
-  import RepeatClick from 'element-hdop/src/directives/repeat-click';
+  import ElInput from 'hdop-ele-arco/packages/input';
+  import Focus from 'hdop-ele-arco/src/mixins/focus';
+  import RepeatClick from 'hdop-ele-arco/src/directives/repeat-click';
 
   export default {
     name: 'ElInputNumber',

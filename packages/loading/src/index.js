@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import loadingVue from './loading.vue';
-import { addClass, removeClass, getStyle } from 'element-hdop/src/utils/dom';
-import { PopupManager } from 'element-hdop/src/utils/popup';
-import afterLeave from 'element-hdop/src/utils/after-leave';
-import merge from 'element-hdop/src/utils/merge';
+import { addClass, removeClass, getStyle } from 'hdop-ele-arco/src/utils/dom';
+import { PopupManager } from 'hdop-ele-arco/src/utils/popup';
+import afterLeave from 'hdop-ele-arco/src/utils/after-leave';
+import merge from 'hdop-ele-arco/src/utils/merge';
 
 const LoadingConstructor = Vue.extend(loadingVue);
 

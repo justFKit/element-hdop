@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Main from './main.vue';
-import { PopupManager } from 'element-hdop/src/utils/popup';
-import { isVNode } from 'element-hdop/src/utils/vdom';
-import { isObject } from 'element-hdop/src/utils/types';
+import { PopupManager } from 'hdop-ele-arco/src/utils/popup';
+import { isVNode } from 'hdop-ele-arco/src/utils/vdom';
+import { isObject } from 'hdop-ele-arco/src/utils/types';
 let MessageConstructor = Vue.extend(Main);
 
 let instance;

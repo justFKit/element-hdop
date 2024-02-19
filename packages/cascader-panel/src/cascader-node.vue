@@ -1,7 +1,7 @@
 <script>
-  import ElCheckbox from 'element-hdop/packages/checkbox';
-  import ElRadio from 'element-hdop/packages/radio';
-  import { isEqual } from 'element-hdop/src/utils/util';
+  import ElCheckbox from 'hdop-ele-arco/packages/checkbox';
+  import ElRadio from 'hdop-ele-arco/packages/radio';
+  import { isEqual } from 'hdop-ele-arco/src/utils/util';
 
   const stopPropagation = e => e.stopPropagation();
 

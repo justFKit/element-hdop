@@ -1,5 +1,5 @@
-import { isEqual, capitalize } from 'element-hdop/src/utils/util';
-import { isDef } from 'element-hdop/src/utils/shared';
+import { isEqual, capitalize } from 'hdop-ele-arco/src/utils/util';
+import { isDef } from 'hdop-ele-arco/src/utils/shared';
 
 let uid = 0;
 

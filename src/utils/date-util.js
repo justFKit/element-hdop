@@ -1,5 +1,5 @@
-import fecha from 'element-hdop/src/utils/date';
-import { t } from 'element-hdop/src/locale';
+import fecha from 'hdop-ele-arco/src/utils/date';
+import { t } from 'hdop-ele-arco/src/locale';
 
 const weeks = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 const months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];

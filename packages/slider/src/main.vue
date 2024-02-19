@@ -74,10 +74,10 @@
 </template>
 
 <script type="text/babel">
-  import ElInputNumber from 'element-hdop/packages/input-number';
+  import ElInputNumber from 'hdop-ele-arco/packages/input-number';
   import SliderButton from './button.vue';
   import SliderMarker from './marker';
-  import Emitter from 'element-hdop/src/mixins/emitter';
+  import Emitter from 'hdop-ele-arco/src/mixins/emitter';
 
   export default {
     name: 'ElSlider',

@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Loading from './loading.vue';
-import { addClass, removeClass, getStyle } from 'element-hdop/src/utils/dom';
-import { PopupManager } from 'element-hdop/src/utils/popup';
-import afterLeave from 'element-hdop/src/utils/after-leave';
+import { addClass, removeClass, getStyle } from 'hdop-ele-arco/src/utils/dom';
+import { PopupManager } from 'hdop-ele-arco/src/utils/popup';
+import afterLeave from 'hdop-ele-arco/src/utils/after-leave';
 const Mask = Vue.extend(Loading);
 
 const loadingDirective = {};

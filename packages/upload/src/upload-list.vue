@@ -63,8 +63,8 @@
   </transition-group>
 </template>
 <script>
-  import Locale from 'element-hdop/src/mixins/locale';
-  import ElProgress from 'element-hdop/packages/progress';
+  import Locale from 'hdop-ele-arco/src/mixins/locale';
+  import ElProgress from 'hdop-ele-arco/packages/progress';
 
   export default {
 
